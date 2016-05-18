@@ -3,12 +3,16 @@
 style('recorder', 'style');
 style('recorder', 'recorder');
 
-script('recorder', 'script');
+/*script('recorder', 'script');
 script('recorder', 'bootstrap.min');
 script('recorder', 'EncoderDemo');
 script('recorder', 'EncoderWorker');
 script('recorder', 'jquery.min');
 script('recorder', 'WavAudioEncoder.min');
+*/
+script('recorder', 'gumadapter');
+script('recorder', 'MediaStreamRecorder');
+script('recorder', 'script');
 
 
 ?>
